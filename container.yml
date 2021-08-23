@@ -5,7 +5,5 @@
   tasks: 
     - 
     
-      name: "stop docker container"
-      shell: "docker stop jon"
       name: "create docker container"
       shell: "docker run -d --name jon -p 1234:8080 ponraj0204/jon"
